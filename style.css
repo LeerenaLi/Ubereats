@@ -1,0 +1,631 @@
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    color: #1D1D1D;
+    background-color: #ffffff;
+}
+
+h1 {
+    font-family: Roboto, sans-serif;
+    color: #1D1D1D;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+h2 {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 34px;
+    color: #1D1D1D;
+}
+
+h3 {
+    font-family: Roboto, sans-serif;
+    color: #1D1D1D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;    
+    line-height: 24px;
+    margin-bottom: 4px;   
+}
+
+h4 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #626262;
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+h5 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: #1D1D1D;
+    margin-top: 0;
+    margin-bottom: 36px;
+}
+
+.container {
+    /*padding: 0 122px;
+    margin: 0 auto;11*/
+    max-width: 978px;
+    width: 100%;
+}
+
+.header {
+    height: 72px;
+    box-shadow: 0px 6px 10px rgb(162 162 162 / 15%); 
+    position: fixed;            /* закрепили блок при прокрутке*/
+    top: 0;                     /*         */
+    z-index: 100;               /*   и этим + width 100%       */
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.logo {
+    padding: 0;
+    margin-top: 30px;
+}
+
+.button {
+    border-radius: 2px;
+    border: 1px solid #E0E0E0;
+    text-align: center;
+    padding: 8px 20px;
+    margin-top: 16px;
+}
+
+.button a {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration: none;
+    color: #1D1D1D;
+    padding-top: 14px;
+    
+}
+
+a, a:active, a:visited {
+    text-decoration: none;
+}
+
+.btn-basket {
+    padding-right: 20px;
+}
+
+.basket {
+    margin: 24px 0 0 27px;
+}
+
+.search {
+    margin-top: 128px;
+    margin-bottom: 56px;
+}
+
+.finder {
+    height: 48px;
+    margin-top: 128px;
+}
+
+.finder form {
+    width: 100%;
+    padding-top: 24px;
+    border-bottom: 1px solid rgba(1,1,1,0.1);
+}
+
+.finder form input {
+    width: 100%;
+    vertical-align: bottom;
+    height: 24px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    opacity: 0.5;
+}
+
+.rest {
+    margin-bottom: 64px;
+}
+
+.rest p {
+    font-size: 22px;
+}
+
+.card {
+    flex-basis: 100%;
+}
+
+.footer {
+    width: 100%;
+    background-color: #262626;
+}
+
+.lolo-footer {
+    height: 116px;
+    border-bottom: 1px solid rgba(151, 151, 151, 1);
+    width: 100%;
+}
+
+.lolo-footer img {
+    margin-top: 56px;
+}
+
+.footer-nav {
+    width: 100%;
+    background-color: #262626;
+    padding-top: 32px;
+    padding-bottom: 55px;
+    margin: 0;
+}
+
+.lang {
+    height: 40px;
+    width: 100%;
+    background: #3B3B3B;
+    border-radius: 2px;
+    position: relative;
+}
+
+.lang>img {
+    padding: 12px 16px 12px 16px;
+}
+
+
+select {
+    width: 160px;
+    outline: none;
+    position: relative;
+    bottom: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font: 13px Roboto, sans-serif;
+    color: white;
+    border: none;
+    background-color: #3B3B3B;
+    appearance: none;
+    background: url(img/Shape.png) no-repeat #3B3B3B;
+    background-position: center right;
+}
+
+.social {
+    padding: 0;
+}
+
+.social p {
+    margin-top: 33px;
+    color: #ffffff;
+}
+
+.social a {
+    margin-right: 8px;
+}
+
+.about {
+    margin-left: 96px;
+} 
+
+.refs a {
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: normal;
+    margin-top: 16px;
+    margin-bottom: 7px;
+}
+
+.footer-app {
+    width: 100%;
+    background-color: #262626;
+}
+
+.app {
+    border-top: 1px solid rgba(151, 151, 151, 1);
+    border-bottom: 1px solid rgba(151, 151, 151, 1);
+    width: 100%;
+    padding-top: 41px;
+    padding-bottom: 39px;
+}
+
+.store {
+    padding-right: 20px;
+}
+
+.google {
+    padding-left: 20px;
+}
+
+.footer-copyright {
+    font-size: 11px;
+    line-height: 13px;
+    color: #ffffff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 100%;
+    background-color: #262626;
+}
+
+#upbutton {
+    position:fixed;
+    z-index:9999;
+    bottom:24px;
+    right:24px;
+    background: url('img/upbutton.png') no-repeat;
+    width: 80px;
+    height: 80px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    color: transparent;
+    text-decoration: none;  
+}
+
+/*  restoraunt    */
+
+
+
+.traktir {
+    width: 100%;
+    height: 364px;
+    margin-top: 72px;
+    background: url('img/traktir.png') no-repeat;
+    background-size: cover;
+    background-position: center center; 
+   
+}
+
+.name {
+    background-color: #ffffff;
+    margin-top: 80px;
+    
+}
+
+.btn-black {
+    border-radius: 16px;
+    background-color: #262626;
+    text-align: center;
+    width: 100px;
+    margin-top: 40px;
+    margin-bottom: 38px;
+    padding-top: 6px;
+    padding-bottom: 7px;;
+}
+
+.name h1 {
+    margin-left: 22px;
+} 
+
+.name h4 {
+    margin-top: 46px;
+    margin-left: 30px;
+}
+
+.btn-black a {
+    font-size: 13px;
+    line-height: 15px;
+    color: #ffffff;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none; 
+    padding-left: 0;
+}
+
+.nav a {
+    display: inline-block;
+    margin-right: 40px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #626262;
+}
+
+.nav>ul>li>a.activ {
+    color: #327430;
+}
+
+.img_snac img {
+    width: 170px;
+    height: 160px;
+    border-radius: 2px;
+}
+
+.karts {
+    border: 1px solid rgba(117, 117, 117, 0.2);
+    border-radius: 2px;
+    height: 162px;
+    margin-bottom: 48px;
+    flex-basis: 49%;
+}
+
+.karts1 {
+    border: 1px solid rgba(117, 117, 117, 0.2);
+    border-radius: 2px;
+    height: 162px;
+    flex-basis: 49%;
+}
+
+.karts1 .snac h5 {
+    margin-top: 58px;
+}
+
+.snac {
+    margin-left: 16px;
+}
+
+.snac h3 {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+
+.snac h4 {
+    font-size: 13px;
+    line-height: 21px;
+    color: #626262;
+}
+
+.snac h5 {
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 500;
+    color: #1D1D1D;
+    margin-top: 83px;
+}
+
+.snacs>.karts>a:hover {
+    background: rgb(155, 154, 154);
+}
+
+.snacs {
+    padding-bottom: 40px;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 752px;
+        width: 96%;
+    }
+
+    .basket {
+        margin: 24px 16px 0 16px;
+    }
+
+    .btn-basket {
+        padding-right: 0;
+    }
+
+    .card {
+       flex-basis: 96%; 
+    }
+
+    .card img {
+        width: 100%; 
+    }
+
+    .rest {
+        margin-bottom: 32px;
+    }
+
+    .button2 p {
+        margin-right: 32px;
+    }
+
+    #menu>li>ul>li {
+        width: 176px;
+        margin-right: -20px;
+    }
+
+    .lang>img {
+        padding: 12px 10px 12px 10px;
+    }
+
+    select {
+        width: 100px;
+    }
+
+    .about {
+        margin-left: 10px;
+    } 
+
+    .about p {
+        width: 100%;
+    }
+
+    .traktir {
+        background: url('img/traktir2.png') no-repeat;
+    }
+
+    .btn-black a {
+        font-size: 12px;
+    }
+
+    .img_snac img {
+        width: 200px;
+        height: 160px;
+    }
+
+    .karts, .karts1 {
+        flex-basis: 100%;
+        margin-bottom: 16px;
+        padding-right: 16px;
+    }
+
+    .karts1 .snac h5 {
+        margin-top: 58px;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .logo {
+        margin-left: 8px;
+    }
+    
+    .basket {
+        margin: 24px 0 0 0;
+    }
+
+    .btn-basket {
+        margin-right: 8px;
+    }
+    .card {
+        flex-basis: 100%; 
+    }
+
+    .card img {
+        width: 100%;
+    }
+
+    .rest {
+        margin-bottom: 32px;
+    }
+
+    .button {
+        margin-right: 8px;
+    }
+
+    .button2 p {
+        margin-right: 29px;
+    }
+
+    .lolo-footer img {
+        margin-left: 8px;
+    }
+
+    .lang {
+        margin-left: 8px;
+    }
+
+    .lang {
+        flex-basis: 80%;
+    }
+
+    .footer-nav .col-xs-12 {
+        flex-basis: 98%;
+    }
+
+    select {
+        width: 120px;
+    }
+
+    .social {
+        padding: 8px;
+    }
+
+    .app {
+        padding-top: 20px;
+    }
+
+    #upbutton {
+        position:fixed;
+        z-index:9999;
+        bottom:24px;
+        right: 16px;
+        background: url('img/btn-up.png') no-repeat;
+        width: 64px;
+        height: 64px;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+        color: transparent;
+        text-decoration: none;  
+    }
+
+    .traktir {
+        background: url('img/traktir3.png') no-repeat;
+        height: 320px;
+        background-size: cover;
+        background-position: top center;
+    }
+
+    h1 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .name {
+        flex-basis: 96%;
+        margin-left: 8px;
+        margin-right: 8px;
+        margin-top: 131px;
+        padding-top: 24px;
+        text-align: center;
+    }
+
+    .name h4 {
+        margin-left: 0;
+    }
+
+    .btn-black {
+        margin-left: 125px;
+        margin-top: 16px;
+    }
+
+    .line {
+        display: block;
+        width: 50px;
+        height: 1px;
+        background: #757575;
+        margin: 0 auto 27px;
+    }
+
+    h2 {
+        padding-top: 56px;
+        margin-bottom: 12px;
+    }
+
+    .karts, .karts1 {
+        margin-left: 8px;
+        padding-right: 22px;
+        margin-top: 16px;
+        margin-bottom: 0;
+        flex-basis: 100%;
+        height: 104px;
+        border: none;
+        border-bottom: 1px solid rgba(117, 117, 117, 0.2);
+    }
+
+    .snacs {
+        padding-bottom: 40px;
+    }
+
+    .img_snac img {
+        width: 102px;
+        height: 102px;
+    }
+
+    .snac {
+        margin-left: 0;
+    }
+
+    .snac h3 {
+        font-size: 14px;
+        line-height: 24px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    .snac h5 {
+        font-size: 15px;
+        line-height: 21px;
+        color: #1D1D1D;
+        margin-top: 41px;
+        margin-bottom: 0;
+    }
+
+    .karts1 .snac h5 {
+        margin-top: 21px;
+    }
+
+    
+}
