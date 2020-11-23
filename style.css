@@ -466,6 +466,65 @@ select {
     }
 }
 
+@media (max-width: 414px) {
+    .snac {
+        width: 180px;
+        height: 164px;
+    }
+
+    .snacs {
+        padding-bottom: 40px;
+    }
+
+    .karts, .karts1 {
+        padding-right: 22px;
+    }
+
+    .karts1 .snac h5 {
+        margin-top: 38px;
+        margin-bottom: 0;
+    }
+
+    .img_snac img {
+        width: 170px;
+        height: 160px;
+    }
+
+    .traktir {
+        background: url('img/traktir3.png') no-repeat;
+        height: 320px;
+        background-size: cover;
+        background-position: top center;
+    }
+
+    .name {
+        margin-top: 120px;
+    }
+
+    h2 {
+        padding-top: 56px;
+        margin-bottom: 12px;
+    }
+
+    .name {
+        flex-basis: 96%;
+        margin-left: 8px;
+        margin-right: 8px;
+        margin-top: 131px;
+        padding-top: 24px;
+        text-align: center;
+    }
+
+    .name h4 {
+        margin-left: 0;
+    }
+
+    .btn-black {
+        margin-left: 130px;
+        margin-top: 16px;
+    }
+}
+
 @media (max-width: 375px) {
 
     .logo {
@@ -627,6 +686,19 @@ select {
     .karts1 .snac h5 {
         margin-top: 21px;
     }
+}
 
-    
+@media (max-width: 320px) {
+    .btn-black {
+        margin-left: 90px;
+    }
+
+    h2 {
+        padding-top: 36px;
+        margin-bottom: 12px;
+    }
+
+    select {
+        width: 90px;
+    }
 }
